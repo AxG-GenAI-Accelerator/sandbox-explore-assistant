@@ -5,3 +5,7 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
  explore: sandbox_sales_data {
    view_name: sanbox_sales_data
  }
+
+explore: miig_sales {
+  view_name: miig_synth_sales
+}
