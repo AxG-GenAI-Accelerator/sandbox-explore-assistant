@@ -10,6 +10,6 @@ explore: miig_sales {
   view_name: miig_synth_sales
 }
 
-explore: galieo_campaign_data{
+explore: galileo_campaign_data{
   view_name: miig_synth_sales
 }
