@@ -9,3 +9,7 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 explore: miig_sales {
   view_name: miig_synth_sales
 }
+
+explore: galieo_campaign_data{
+  view_name: miig_synth_sales
+}
