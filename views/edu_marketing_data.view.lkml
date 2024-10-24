@@ -1,5 +1,8 @@
-view: s_o_campaign_data {
-  sql_table_name: `oxjytxr-mss-mkt-genai-accel.looker_sandbox.s_o_campaign_data` ;;
+# The name of this view in Looker is "Edu Marketing Data"
+view: edu_marketing_data {
+  # The sql_table_name parameter indicates the underlying database table
+  # to be used for all fields in this view.
+  sql_table_name: `oxjytxr-mss-mkt-genai-accel.looker_sandbox.edu_marketing_data` ;;
 
   # Dimensions
   dimension: account_region {
